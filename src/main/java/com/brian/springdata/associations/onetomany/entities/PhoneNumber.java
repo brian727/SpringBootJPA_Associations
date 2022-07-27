@@ -1,4 +1,4 @@
-package com.brian.springdata.associations.entities;
+package com.brian.springdata.associations.onetomany.entities;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

@@ -1,4 +1,4 @@
-package com.brian.springdata.associations.repos;
+package com.brian.springdata.associations.manytomany.repos;
 
 import org.springframework.data.repository.CrudRepository;
 

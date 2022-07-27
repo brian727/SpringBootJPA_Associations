@@ -1,4 +1,4 @@
-package com.brian.springdata.associations.entities;
+package com.brian.springdata.associations.onetomany.entities;
 
 import java.util.HashSet;
 import java.util.Set;

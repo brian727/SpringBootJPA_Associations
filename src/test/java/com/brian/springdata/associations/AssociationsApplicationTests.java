@@ -11,15 +11,15 @@ import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
-import com.brian.springdata.associations.entities.Customer;
-import com.brian.springdata.associations.entities.PhoneNumber;
 import com.brian.springdata.associations.manytomany.entities.Programmer;
 import com.brian.springdata.associations.manytomany.entities.Project;
+import com.brian.springdata.associations.manytomany.repos.ProgrammerRepository;
+import com.brian.springdata.associations.onetomany.entities.Customer;
+import com.brian.springdata.associations.onetomany.entities.PhoneNumber;
+import com.brian.springdata.associations.onetomany.repos.CustomerRepository;
 import com.brian.springdata.associations.onetoone.entities.License;
 import com.brian.springdata.associations.onetoone.entities.Person;
 import com.brian.springdata.associations.onetoone.repos.LicenseRepository;
-import com.brian.springdata.associations.repos.CustomerRepository;
-import com.brian.springdata.associations.repos.ProgrammerRepository;
 
 @SpringBootTest
 class AssociationsApplicationTests {
